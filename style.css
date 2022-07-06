@@ -58,7 +58,7 @@ section {
     text-align: center;
 }
 
-.button {
+.btn {
     background-color: grey;
     border: none;
     color: white;
@@ -70,6 +70,10 @@ section {
     margin: 4px 2px;
     cursor: pointer;
     margin-right: 10px;
+}
+
+.btn:focus {
+    border: 5px solid lime;
 }
 
 .flex-parent {
@@ -91,4 +95,55 @@ section {
 .input-underline {
     text-align: center;
     margin-top: 40px;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+}
+
+.food {
+    padding: 22px;
+    border-radius: 10px;
+    background-color: #89CFF0;
+    height: 17rem;
+    width: 20rem;
+}
+
+.medicine {
+
+    padding: 22px;
+    border-radius: 10px;
+    background-color: #f4c2c2;
+    height: 17rem;
+    width: 20rem;
+}
+
+.shelter {
+
+    padding: 22px;
+    border-radius: 10px;
+    background-color: #D1F3C5;
+    height: 17rem;
+    width: 20rem;
+}
+
+.img-size {
+    height: 50px;
+    width: 50px;
+}
+
+.final-part {
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 1.5rem;
+    font-size: 18px;
+}
+
+.third-section {
+    margin-top: -40px;
+    margin-bottom: 20px;
 }
