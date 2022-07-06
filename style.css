@@ -1,5 +1,11 @@
 body {
     font-family: 'DM Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    height: 100vh;
 }
 
 .headline {
@@ -11,19 +17,26 @@ body {
     color: snow;
 }
 
+.second-headline {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+
 #first-part {
-    background: url(donation9.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("donation13.jpg");
+    min-height: 105vh;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .context {
     margin-top: -25px;
     text-align: center;
-    color: rgb(23, 22, 22);
-    font-size: 21px;
+    color: snow;
+    font-size: 22px;
     font-weight: 500
 }
 
@@ -39,4 +52,43 @@ body {
 .button-end {
     text-align: center;
     padding-top: 40px;
+}
+
+.second-context {
+    text-align: center;
+}
+
+.button {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.flex-parent {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.underline {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    margin-bottom: 15px;
+}
+
+.input-underline {
+    text-align: center;
+    margin-top: 40px;
 }
